@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recognized_for" table="x_30309_employee_0_recognition" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recognized_for</element>
+            <name>x_30309_employee_0_recognition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-15 13:06:59</sys_created_on>
+            <sys_id>c62df46807a38110da0ef4be7c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recognized_for</sys_name>
+            <sys_package display_value="Employee Recognition" source="x_30309_employee_0">145a144407270110da0ef4be7c1ed04b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Recognition">145a144407270110da0ef4be7c1ed04b</sys_scope>
+            <sys_update_name>sys_choice_x_30309_employee_0_recognition_recognized_for</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-15 13:06:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recognized_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Team Work</label>
+            <language>en</language>
+            <name>x_30309_employee_0_recognition</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-15 13:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>822df46807a38110da0ef4be7c1ed0f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-15 13:06:59</sys_updated_on>
+            <value>team_work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recognized_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leadership</label>
+            <language>en</language>
+            <name>x_30309_employee_0_recognition</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-15 13:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e2df46807a38110da0ef4be7c1ed0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-15 13:06:59</sys_updated_on>
+            <value>leadership</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recognized_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Above and Beyond</label>
+            <language>en</language>
+            <name>x_30309_employee_0_recognition</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-15 13:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a2df46807a38110da0ef4be7c1ed0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-15 13:06:59</sys_updated_on>
+            <value>above_and_beyond</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recognized_for</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Service</label>
+            <language>en</language>
+            <name>x_30309_employee_0_recognition</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-15 13:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a2df46807a38110da0ef4be7c1ed0fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-15 13:06:59</sys_updated_on>
+            <value>customer_service</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

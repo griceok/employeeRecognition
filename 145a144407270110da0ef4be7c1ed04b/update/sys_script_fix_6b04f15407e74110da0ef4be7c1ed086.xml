@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Fortune Teller</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[//Create the tellFortune Function
+
+function tellFortune(jobTitle,geoLocation,partner,numKids) {
+	var fortune = 'You will be a ' + jobTitle + ' in ' + geoLocation + ' and married to ' + partner + ' with ' + numKids + ' kids.';
+	
+	gs.print(fortune);
+}
+
+tellFortune('Fire Fighter','Oklahoma','Brenda',2);
+tellFortune('Rapper','Los Angeles', 'Kim', 3);
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-14 22:36:42</sys_created_on>
+        <sys_id>6b04f15407e74110da0ef4be7c1ed086</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Fortune Teller</sys_name>
+        <sys_package display_value="Employee Recognition" source="x_30309_employee_0">145a144407270110da0ef4be7c1ed04b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Recognition">145a144407270110da0ef4be7c1ed04b</sys_scope>
+        <sys_update_name>sys_script_fix_6b04f15407e74110da0ef4be7c1ed086</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-14 22:40:05</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

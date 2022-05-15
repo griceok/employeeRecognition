@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Recognition" max_length="40" name="x_30309_employee_0_recognition" type="collection">
+        <element label="Description" mandatory="true" max_length="120" name="description" type="string"/>
+        <element label="Nominated By" mandatory="true" max_length="32" name="nominated_by" reference="sys_user" type="reference"/>
+        <element default="javascript:incidentGetCaller()" display="true" dynamic_default_value="0d39d9105f220100a9ad2572f2b47796" label="Nominee" mandatory="true" max_length="32" name="nominee" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Recognized For" mandatory="true" max_length="40" name="recognized_for" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Team Work" sequence="0" value="team_work"/>
+                <element inactive_on_update="false" label="Leadership" sequence="1" value="leadership"/>
+                <element inactive_on_update="false" label="Above and Beyond" sequence="2" value="above_and_beyond"/>
+                <element inactive_on_update="false" label="Customer Service" sequence="3" value="customer_service"/>
+            </choice>
+        </element>
+        <element choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="In Review" sequence="1" value="in_review"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="nominated_by"/>
+        </index>
+        <index name="index2">
+            <element name="nominee"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
